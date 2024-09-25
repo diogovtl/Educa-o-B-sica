@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(199, 192, 192);
+    
+}
+
+img{
+    width: 150px;
+    display: block; 
+    position: absolute;
+    top: 0%;
+    left:45%
+    
+}
+
+.menu{
+    height: 80px;
+    display: flex;
+    gap:200px;
+    list-style-type: none;
+    background-color: rgb(187, 80, 187);
+    border:4px solid grey ;
+    box-shadow: 3px 3px 0px grey;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 375px;
+    padding-top:25px ;   
+    padding-bottom: 0px; 
+    
+    
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    float: left;
+    
+    
+
+}
+
+.bloco2 {
+    width: 1500px;
+    height: auto;
+    display: flex;
+    border: 4px solid white;
+    box-shadow: 3px 3px 0px grey;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Merriweather", system-ui;
+    padding: 20px;
+}
+
+.texto {
+    height: 120px;
+    width: 1100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid grey;
+    background-color: rgb(187, 80, 187) ;
+    box-shadow: 3px 3px 0px grey;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.alinhar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.bloco{
+    height: 510px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 65, 172);
+    border: 4px solid white;
+    box-shadow: 4px 4px 0px white;
+    align-items: center;
+    margin: 2.5%;
+
+
+
+}
+
+.txt {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color:black;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+}
+
+input{
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+   height: 30px;
+   width: 400px;
+   border: 3px solid grey;
+   box-shadow: 3px 3px 0px grey;
+   font-size: 20px;
+   padding-left: 7px;
+   padding-right: 7px;
+}
+
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 200px;
+    border: 3px solid grey;
+    box-shadow: 3px 3px 0px grey;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 20px;
+    
+    
+}
+
+button{
+    display: block;
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    top:115%;
+    left: 48%;
+    right: 50%;
+    border: 2px solid grey;
+    box-sizing: 2px 2px 0px grey;
+    transition: 220ms;
+    
+    
+   
+}
+
+button:hover{  
+    background-color: purple;
+    color: white;
+    transform: scale(1.20);
+
+}
+
+.lista{
+    
+    text-decoration: none;
+    
+    
+    
+}
+
+.materia {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 10px;
+    
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    
+   
+}
+
+a:hover{
+    color: black;
+    
+
+}
+
